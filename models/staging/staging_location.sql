@@ -10,4 +10,4 @@ WITH locations_data AS (
 SELECT * 
 FROM locations_data
 
-select * locations;
+
