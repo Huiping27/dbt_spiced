@@ -40,9 +40,11 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
 staging:
-   +materialized: table
+  materialized: table
 prep:
-   +materialized: table
+  materialized: table
 mart:
-   +materialized: table
+  materialized: table
+
