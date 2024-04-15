@@ -1,7 +1,7 @@
 -- Define a DBT model to create a new table representing sunrise & moonrise for weekdays
 with forecast_day_data as (
     select sunrise, moonrise 
-    from "climate"."dbt_hli"."staging_forecast_day"
+    from {{ ref('staging_forecast_day') }}
 ),
 add_features as (
     select sunrise, moonrise,
@@ -13,7 +13,5 @@ add_features as (
         TO_CHAR(forecast_date, 'IYYY-IW') as year_and_week
     from forecast_day_data
 )
--- Define the output table and columns based on the 'add_features' CTE
 select *
 from add_features
-
