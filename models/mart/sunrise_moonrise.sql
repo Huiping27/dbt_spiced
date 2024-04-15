@@ -15,5 +15,5 @@ add_features as (
 )
 -- Define the output table and columns based on the 'add_features' CTE
 select *
-from add_features;
+from add_features
 
