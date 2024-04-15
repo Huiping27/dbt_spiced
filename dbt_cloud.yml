@@ -1,0 +1,14 @@
+\qversion: "1"
+context:
+  active-host: "ze985.us1.dbt.com"
+  active-project: "70403103919419"
+projects:
+  - project-name: "Analytics"
+    project-id: "70403103919419"
+    account-name: "spiced"
+    account-id: "70403103917902"
+    account-host: "ze985.us1.dbt.com"
+    token-name: "cloud-cli-55dd"
+    token-value: "dbtu_8PC4hTY3uYtEED80mzqLvqVinLmQKryUInnK51miiRs5xxjPgI"
+
+
