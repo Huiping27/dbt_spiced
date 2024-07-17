@@ -16,4 +16,4 @@ Try running the following commands:
 
 ### Author:
 
-Huiping Li
+ - Huiping Li
