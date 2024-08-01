@@ -1,4 +1,6 @@
+
 This documentation provides a guide on setting up and using a dbt (data build tool) project to connect to a Google Cloud database (e.g., BigQuery) and execute SQL queries.
+
 
 ## Project Initialization
 
